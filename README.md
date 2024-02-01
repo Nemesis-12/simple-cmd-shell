@@ -21,7 +21,7 @@ When the program starts, you will be greeted with a menu containing the followin
 ```
 Select an action to perform
 [dir]     List Current Directory
-[cd]	 	  Change Directory
+[cd]   Change Directory
 [mkdir]	  Create New Directory
 [echo] 		Display Message
 [type] 		Concatenate and Display File Content
