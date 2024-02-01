@@ -12,10 +12,13 @@ Clone the repository or download the source code onto your local machine. Naviga
 ## Usage
 Run the following program on the terminal:
 
+```
 python shell.py
+```
 
 When the program starts, you will be greeted with a menu containing the following options:
 
+```
 Select an action to perform
 [dir] 		List Current Directory
 [cd]	 	Change Directory
@@ -23,6 +26,7 @@ Select an action to perform
 [echo] 		Display Message
 [type] 		Concatenate and Display File Content
 [q] 		Exit
+```
 
 Simply type in the command you want to execute in front of the “> “ prompt and follow the instructions that appear for each command executed.
 
