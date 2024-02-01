@@ -23,9 +23,9 @@ Select an action to perform
 [dir]     List Current Directory
 [cd]      Change Directory
 [mkdir]	  Create New Directory
-[echo] Display Message
+[echo]  Display Message
 [type] 	Concatenate and Display File Content
-[q] 		Exit
+[q] 	Exit
 ```
 
 Simply type in the command you want to execute in front of the “> “ prompt and follow the instructions that appear for each command executed.
