@@ -12,13 +12,13 @@ Clone the repository or download the source code onto your local machine. Naviga
 ## Usage
 Run the following program on the terminal:
 
-```
+```console
 python shell.py
 ```
 
 When the program starts, you will be greeted with a menu containing the following options:
 
-```
+```console
 Select an action to perform
 [dir]   List Current Directory
 [cd]    Change Directory
