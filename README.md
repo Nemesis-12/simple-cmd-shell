@@ -1,22 +1,40 @@
 # Simple CMD Shell Program
 
-## Getting Started
-This program is a simple and basic shell program written in Python, which replicates Windows CMD commands such as creating a directory (dir), changing a directory (cd), displaying messages (echo), and so on. The following document will help you get started on setting up the program.
+## Introduction
+A simple menu-driven command-line shell program written in Python that replicates basic Windows CMD commands. The program supports common operations like:
+- Creating directories (mkdir)
+- Changing directories (cd)
+- Listing directory contents (dir)
+- Displaying messages (echo)
+- Viewing file contents (type)
 
 ## Prerequisites
-This program requires Python 3.10 to run and was written in 3.12.1. To download, go to python.org and download Python 3.10.x or above. You will not be required to install any additional libraries as we are using default libraries.
+- **Python 3.10 or above**: The program was written in Python 3.12.1, but it is compatible with Python 3.10 or newer.
+- No additional libraries are required as it uses Python's built-in functionality.
 
 ## Installation
-Clone the repository or download the source code onto your local machine. Navigate to the directory of the script and run it through the terminal or an IDE.
+1. Clone the repository to your local machine:
+   
+   ```bash
+   git clone https://github.com/Nemesis-12/simple-cmd-shell.git
+   ```
+   
+2. Navigate to the directory containing the script:
+
+   ```console
+   cd simple-cmd-shell
+   ```
 
 ## Usage
-Run the following program on the terminal:
+Run the program in the terminal or an IDE:
 
 ```console
 python shell.py
 ```
 
-When the program starts, you will be greeted with a menu containing the following options:
+## Example
+
+Upon running the program, you will see a menu of available commands. Select an option by typing the corresponding command. Below are a few examples to get you started.
 
 ```console
 Select an action to perform
@@ -26,9 +44,34 @@ Select an action to perform
 [echo]  Display Message
 [type] 	Concatenate and Display File Content
 [q] 	Exit
+
+>
 ```
 
-Simply type in the command you want to execute in front of the “> “ prompt and follow the instructions that appear for each command executed.
+### List current directory
+
+```console
+> dir
+```
+
+### Change directory
+
+```console
+> cd <directory-name>
+```
+
+### Create a new directory
+
+```console
+> mkdir <directory-name>
+```
 
 ## Contributing
-This project is an educational tool and is open to contributions. If you have suggestions or improvements, create a pull request by forking the repository.
+This project is an educational tool and welcomes contributions. To contribute:
+- Fork the repository.
+- Make your changes.
+- Submit a pull request with a description of your updates.
+Feel free to open an issue for suggestions or bugs.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
